@@ -7,7 +7,7 @@ Here there is a list of my projects
 2. Project b
 3. Project c
 
-[Name of Link]({https://pinghsuanlin.github.io/personalSite/about.md})
+[Name of Link](/about.md)
 
 You can use the [editor on GitHub](https://github.com/Pinghsuanlin/personalSite/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
