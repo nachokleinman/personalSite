@@ -1,6 +1,7 @@
 ## Sherie Lin
+### Data Scientist
 
-hola
+Hi, my name is Sherie Lin
 
 ## Welcome to GitHub Pages
 
