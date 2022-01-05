@@ -1,3 +1,4 @@
+![Image](/assets/img/profile.jpg)
 ## Introduction
 
 Here there is a list of my projects
