@@ -1,9 +1,10 @@
-## Sherie Lin
-### Data Scientist
+## Introduction
 
-Hi, my name is Sherie Lin
+Here there is a list of my projects
 
-## Welcome to GitHub Pages
+1. Project a
+2. Project b
+3. Project c
 
 You can use the [editor on GitHub](https://github.com/Pinghsuanlin/personalSite/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
