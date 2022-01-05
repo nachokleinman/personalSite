@@ -1,6 +1,11 @@
 title: Sherie Lin
+<<<<<<< HEAD
 profile: /assets/img/profile.png
 description: Hi, my name is Sherie and I am student of Columbia... Data Scientist
+=======
+profile: /assets/img/profile.jpg
+description: Data Scientist
+>>>>>>> feed8168e4348a92984374cc56ad8a9915013972
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
