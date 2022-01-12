@@ -10,7 +10,7 @@ Here there is a list of my projects
 
 [Name of Link](/about.md)
 [Anova and effect size analysis](/Homework5_pl2793.md)
-[Noble Prize project](/blob/main/NobelPrize/NobelPrize.md)
+[Noble Prize project](/NobelPrize/NobelPrize.md)
 
 
 
