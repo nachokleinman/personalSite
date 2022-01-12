@@ -366,7 +366,7 @@ ax.yaxis.set_major_formatter(PercentFormatter())
 
 
     
-![png](output_7_0.png)
+![png](NP7_0.png)
     
 
 
