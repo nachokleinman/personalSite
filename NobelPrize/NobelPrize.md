@@ -393,7 +393,7 @@ ax.yaxis.set_major_formatter(PercentFormatter())
 
 
     
-![png](output_9_0.png)
+![png](NP9_0.png)
     
 
 
@@ -883,7 +883,7 @@ sns.lmplot(data= nobel, x= 'year', y='age', lowess=True, aspect=2, line_kws={'co
 
 
     
-![png](output_15_1.png)
+![png](NP15_1.png)
     
 
 
@@ -908,7 +908,7 @@ sns.lmplot(data= nobel, x= 'year', y='age', row= 'category', lowess=True, aspect
 
 
     
-![png](output_17_1.png)
+![png](NP17_1.png)
     
 
 
