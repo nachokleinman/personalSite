@@ -1,9 +1,10 @@
 layout: sidebar
-style: dark
+style: light
 
 title: Sherie Lin
 profile: /assets/img/profile.jpg
 description: Hi, my name is Sherie and I am student of Columbia... Data Scientist
+
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
@@ -11,4 +12,17 @@ remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 9
+  exclude:
+    archived: false
+    forks: true
+    projects:
+    # - repo-name
+    
+social_media: 
+  linkedin: https://www.linkedin.com/in/pinghsuanlin
