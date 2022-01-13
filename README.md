@@ -1,7 +1,5 @@
-
-<img src="/assets/img/profile.jpg" alt="drawing" width="200"/>
-#Hola
-##hola
+# Hola
+## hola
 Featured Projects
 
 
