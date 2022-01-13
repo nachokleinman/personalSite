@@ -1,11 +1,8 @@
 <<<<<<< HEAD
+![Image](/assets/img/profile.jpg)
 <img src="/assets/img/profile.jpg" alt="drawing" width="200"/>
 ## Featured Projects
 #Su
-=======
-<img src="/assets/img/profile.jpg" alt="drawing" width="200"/>
-## Introduction
->>>>>>> b9d2cbcc6eb1f3b008e3b40ab4db8c0166189f86
 
 Here there is a list of my projects
 
