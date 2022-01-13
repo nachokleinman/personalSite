@@ -1,4 +1,5 @@
 ![Image](/assets/img/profile.jpg)
+<img src="/assets/img/profile.jpg" alt="drawing" width="200"/>
 ## Introduction
 
 Here there is a list of my projects
