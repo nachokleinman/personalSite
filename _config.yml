@@ -5,6 +5,8 @@ title: Sherie Lin
 profile: /assets/img/profile.jpg
 description: Hi, my name is Sherie and I am student of Columbia... Data Scientist
 
+<img align="left" height="260" src="/assets/img/profile.jpg">
+
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
@@ -25,4 +27,4 @@ projects:
     # - repo-name
     
 social_media: 
-  linkedin: https://www.linkedin.com/in/pinghsuanlin
+  linkedin: pinghsuanlin
