@@ -2,7 +2,7 @@
 ## hola
 Featured Projects
 
-<img src="/assets/img/profile.jpg" alt="drawing" width="200"/>
+<img align="left" height="260" src="/assets/img/profile.jpg">
 
 Here there is a list of my projects
 
