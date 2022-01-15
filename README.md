@@ -2,8 +2,11 @@ Below, you would find some of my work with R, Python langague. These notebooks c
 ## **Supervised Machine Learning**
 
 Linear Regression
+
 Logistic Regression
+
 Decision Tree: Classification Tree, Regression Tree, Advanced Tree
+
 Supervised Machine Learning (SVM)
 
 
