@@ -18,4 +18,4 @@ Below, you would find some of my work with R, Python langague. These notebooks c
 ### Data Visualization
 
 ## Featured Projects
-[NobelPrize](D:\Github\personalSite\projects\NobelPrize\NobelPrize.md)
+[NobelPrize](\projects\NobelPrize\NobelPrize.md)
