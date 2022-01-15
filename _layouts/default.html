@@ -1,59 +1,52 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+    <title>Sherie Lin | Data Scientist</title>
+
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <title>Projects | Sherie Lin</title>
-    <meta name="generator" content="Jekyll v3.9.0" />
-    <meta property="og:title" content="Projects" />
-    <meta property="og:locale" content="en_US" />
-    <meta name="description" content="Data Scientist" />
-    <meta property="og:description" content="Data Scientist" />
-    <link rel="canonical" href="http://localhost:4000/projects.html" />
-    <meta property="og:url" content="http://localhost:4000/projects.html" />
-    <meta property="og:site_name" content="Ignacio Kleinman Ruiz" />
-    <meta name="twitter:card" content="summary" />
-    <meta property="twitter:title" content="Projects" />
-    <script type="application/ld+json">
-    {"url":"http://localhost:4000/projects.html","headline":"Projects","description":"Data Scientist","@type":"WebPage","@context":"https://schema.org"}</script>
-
-    {% include head-custom.html %}
-
-
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  
   </head>
   <body>
     <div class="wrapper">
-        <header>
-          <h1><a href="{{ "/" | absolute_url }}">Sherie Lin</a></h1>
-          <h3>Data Scientist</h3>
-          <!-- <p> Machine Learning | NLP | Statistics | Software Engineering | Economics</p> -->
-          <div>
-            <img src="profile.jpg" alt="Profile" />
-          </div>
-          <p class=bio>
-            Blending academic training in economics and history with hands-on experience in providing strategic, problem-solving solutions across all tiers of institution. Skilled with data visualization and data analysis, which increases quality and speed of decision making. Proven ability to identifying and evaluating trends through data gathering, research design and analytics. Eager to apply for a Data Analyst role for actionable insights. Looking forward to boosting my quantitative analysis, and communication skills in designing, building high quality deliverables and interactive application. 
-          </p>
-          <ul class="menu-buttons">
-            <li><a href="https://www.linkedin.com/in/pinghsuanlin">LinkedIn</a></li>
-            <li><a href="http://www.github.com/pinghsuanlin">GitHub</a></li>
-          </ul>
-        </header>
-        <section class=center>
-  
-        {{ content }}
-  
-        </section>
-        <footer>
-          
-        </footer>
-      </div>
-      <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+      <header>
+        <h1><a href="{{ "/" | absolute_url }}">Ping Hsuan Lin</a></h1>
+        <h3>Data Scientist</h3>
+        <!-- <p> Machine Learning | NLP | Statistics | Software Engineering | Economics</p> -->
+        <p class=bio>
+            Blending academic training in economics and history with hands-on experience in providing strategic, problem-solving solutions across all tiers of institution. Skilled with data visualization and data analysis. Proven ability to identifying and evaluating trends through data gathering, research design and analytics. Proficient in Python, R, SQL and statistics. Eager to apply for a Data Analyst role for actionable insights. 
+
+        </p>
+
+        <div>
+          <img src="{{site.profile | relative_url}}" alt="Profile" />
+        </div>
+        
+
+        <ul class="menu-buttons">
+          <li><a href="https://www.linkedin.com/in/pinghsuanlin">LinkedIn</a></li>
+          <li><a href="http://www.github.com/pinghsuanlin">GitHub</a></li>
+        </ul>
+
+        
+        
+      </header>
+      <section class=center>
+
+      {{ content }}
+
+      </section>
+      <footer>
+        
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
