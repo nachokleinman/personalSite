@@ -1,5 +1,5 @@
-
 <img src="/assets/img/profile.jpg" alt="drawing" width="200"/>
+<img align="left" height="260" src="/assets/img/profile.jpg">
 ## Featured Projects
 
 
@@ -11,6 +11,8 @@ Here there is a list of my projects
 
 
 [Name of Link](/about.md)
+
+
 [Anova and effect size analysis](/Homework5_pl2793.md)
 
 
