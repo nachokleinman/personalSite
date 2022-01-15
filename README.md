@@ -1,7 +1,7 @@
 Below, you would find some of my work with R, Python langague. These notebooks could also be found at [github/pinghsuanlin](https://github.com/Pinghsuanlin/).
 ## **Supervised Machine Learning**
 
-Linear Regression
+[Linear Regression]
 
 Logistic Regression
 
