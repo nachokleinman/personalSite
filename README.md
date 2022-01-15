@@ -11,7 +11,7 @@ Supervised Machine Learning (SVM)
 
 
 
-## **Data Modeling*
+## **_Data Modeling_**
 
 ### Feature Selection
 
