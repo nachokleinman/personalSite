@@ -11,7 +11,7 @@ Below, you would find some of my work with R, Python langague. These notebooks c
 
 
 
-## **_Data Modeling_**
+## **Data Modeling**
 
 1. Feature Selection
 
@@ -29,4 +29,4 @@ Below, you would find some of my work with R, Python langague. These notebooks c
 2. Data Visualization
 
 ## Featured Projects
-[NobelPrize](NobelPrize\NobelPrize.md)
+[NobelPrize](projects/NobelPrize/NobelPrize.md)
