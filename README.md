@@ -24,9 +24,9 @@ Below, you would find some of my work with R, Python langague. These notebooks c
 
 ## **Exploartory Data Analysis**
 
-1. Introduction
+1. [Introduction](projects/exploratoryDataAnalysis.md)
 
-2. Data Visualization
+2. [DataVisualization](projects/dataVisualization.md)
 
 ## Featured Projects
-[NobelPrize](projects/NobelPrize/NobelPrize.md)
+* [NobelPrize](projects/NobelPrize/NobelPrize.md)
