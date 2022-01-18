@@ -1,11 +1,11 @@
 Below, you would find some of my work with R, Python langague. These notebooks could also be found at [github/pinghsuanlin](https://github.com/Pinghsuanlin/).
 ## **Supervised Machine Learning**
 
-1. Linear Regression
+1. [LinearRegression](projects/linearRegression.md)
 
-2. Logistic Regression
+2. [LogisticRegression](projects/logisticRegression.md)
 
-3. Decision Tree: Classification Tree, Regression Tree, Advanced Tree
+3. [DecisionTree](projects/decisionTree.md): Classification Tree, Regression Tree, Advanced Tree
 
 4. Supervised Machine Learning (SVM)
 
@@ -13,14 +13,12 @@ Below, you would find some of my work with R, Python langague. These notebooks c
 
 ## **Data Modeling**
 
-1. Feature Selection
+1. [FeatureSelection](projects/featureSelection.md)
 
 
 ## **Data Maniuplation**
 
-1. Data Cleaning
-
-2. Data Transformation
+1. [DataTidying](dataTidying): Data Cleaning, Data Transformation
 
 ## **Exploartory Data Analysis**
 
