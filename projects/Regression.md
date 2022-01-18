@@ -1,3 +1,18 @@
+# Linear Regression
+**_Linear Regression is the oldest, most basic predictive modeling (or supervised learning) technique_**
+
+## Regression Assumptions:
+* Linear in parameters
+* Mean of residuals is zero
+* Homoscedasticity
+* No autocorrelation
+* IVs and residuals are not correlated
+* n> number of parameters
+* Variance of IVs > 0
+* No perfect multicollinearity
+* No specification bias
+* Errors are normally distributed
+
 ### Data Description
 Wages dataset is a simulated dataset based on a real dataset published in Data Analysis using Regression and Multilevel/Hierarchical Models by Andrew Gelman and Jennifer Hill
 
@@ -55,10 +70,16 @@ ggplot(data=train,aes(x=age,y=earn))+
   coord_cartesian(ylim=c(0,200000))
   ```
 2. Estimate
+
+__Estimate Regression Equation:__
+
+![Equation](estimateRegEqu.png)
+
 ```
 model1 = lm(earn~age,data=train)
 ```
 3. Predict
+
 ```
 pred = predict(model1)
 data.frame(earn = train$earn[100:109], prediction = pred[100:109])
@@ -66,6 +87,9 @@ data.frame(earn = train$earn[100:109], prediction = pred[100:109])
 summary(model1)
 ```
 ![model1](lrmodel1.png)
+
+__R-Squared__
+![R](r-squared.png)
 * R-squared interpret how well the regression model fits the observed data. Generally, _a higher r-squared indicates a better fit for the model_
 
 ```
@@ -79,7 +103,7 @@ rmse1 = sqrt(mean((pred-train$earn)^2)); rmse1
 ```
 * RMSE can be interpreted as the standard deviation of the unexplained variance, and has the useful property of being in the same units as the response variable. __Lower values of RMSE indicate better fit.__
 
-4. Inference
+4. __Ordinary Least Squares (OLS)__: Inference from coefficient
 
 Does age influence earn? Yes, based on the coefficient, older age has positive impact on earn. (model1$coef[1]+ model1$coef[2]* age)
 
@@ -115,6 +139,14 @@ sse_test = sum((pred - test$earn)^2)
 sst_test = sum((mean(train$earn)-test$earn)^2)
 model_r2_test = 1 - sse_test/sst_test; model_r2_test
 ```
+* More predictors are likely to reduce specification bias and present a complete picture, but often lead to overfitting and reduce interpretability. 
+
+## _Multiple Regression with interaction_
+```
+model = lm(earn ~ height + gender, height * gender, data = train)
+```
+
+# Logistic Regression
 
 
 
